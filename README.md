@@ -4,3 +4,4 @@ Tiendita On-Line en Java - Proyecto Universitario
 -HTML5 - CSS3
 -JavaScript
 -MySQL
+-Glassfish 4.1.1
