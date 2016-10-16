@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="css/style.css" type="text/css" rel="stylesheet"/>
 
-        <title>Administración Tienda</title>
+        <title>NP Store - Login Admin</title>
     </head>
     <body>
         <div class="space">

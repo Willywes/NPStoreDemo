@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="../css/style.css" type="text/css" rel="stylesheet"/>
 
-        <title>Administración Tienda</title>
+        <title>NP Store - Panel Administración</title>
     </head>
     <body>
         <div class="space">
@@ -17,10 +17,13 @@
                     </div>
                 </div>
                 <div class="panel-right">
-                    <div class="panel-box-blanco">
+                    <div class="panel-box">
+                        <div class="panel-box-blanco">
 
-                        
+                            <h1>NP Store</h1>
+                            <h5>La tienda de Nova Prospekt e-Sports Club</h5>
 
+                        </div>
                     </div>
                 </div>
             </div>
