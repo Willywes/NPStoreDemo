@@ -1,0 +1,10 @@
+body{
+    background-image: url("images/Gamer.jpg");
+    font: bold 18px Delicious;
+    color: #FFFFFF;  
+}
+@font-face{
+    font-family: 'Delicious';
+    src:url(Delicious-SmallCaps.otf);
+    
+}
