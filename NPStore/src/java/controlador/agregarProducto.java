@@ -93,6 +93,8 @@ public class agregarProducto extends HttpServlet {
         String preciox = request.getParameter("precio");
         String stockx = request.getParameter("stock");
         String imagenx = request.getParameter("examinar");
+        
+        
 
         // validar
         if (idx.isEmpty()) {
