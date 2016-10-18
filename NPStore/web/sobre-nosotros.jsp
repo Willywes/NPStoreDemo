@@ -48,35 +48,38 @@
                     </div>
 
                 </div>
+
                 <div class="panel-main">
                     <div class="box">
                         <div class="carrito">
-                            <h3>No te lo pierdas</h3>
-                            <img src="images/oferta-grande.jpg" width="100%"/>
+                            <h3>Sobre Nostros</h3>
+                            <p style="padding: 15px; text-align: justify;">
+                                NP Store, es una empresa chilena que se lanzó al mercado el año 2016, 
+                                encargada de proporcionar los mejores servicios y productos gamer a los usuarios más exigentes.
+                                Nuesta visión es buscar ser la empresa preferida por los usuarios o empresas
+                            </p>
                         </div>
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/eGUSPc5BtE8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+
+                </div>
+                <div class="footer">
+                    <div class="box">
+                        <table style="width: 100%;" border="0" align="center">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 20%; text-align: center;">&nbsp;</td>
+                                    <td style="width: 20%; text-align: center;"><img src="images/ga2-white.png" width="80%"></a</td>
+                                    <td style="width: 20%; text-align: center;"><img src="images/tucreativa.png" width="80%"></a</td>
+                                    <td style="width: 20%; text-align: center;"><img src="images/npstore.png" width="80%"></a</td>
+                                    <td style="width: 20%; text-align: center;">&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        NP Store © Copyright 2016. Todos los derechos reservados. 
                     </div>
                 </div>
-
-
             </div>
-            <div class="footer">
-                <div class="box">
-                    <table style="width: 100%;" border="0" align="center">
-                        <tbody>
-                            <tr>
-                                <td style="width: 20%; text-align: center;">&nbsp;</td>
-                                <td style="width: 20%; text-align: center;"><img src="images/ga2-white.png" width="80%"></a</td>
-                                <td style="width: 20%; text-align: center;"><img src="images/tucreativa.png" width="80%"></a</td>
-                                <td style="width: 20%; text-align: center;"><img src="images/npstore.png" width="80%"></a</td>
-                                <td style="width: 20%; text-align: center;">&nbsp;</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    NP Store © Copyright 2016. Todos los derechos reservados. 
-                </div>
-            </div>
-        </div>
     </body>
 </html>
 

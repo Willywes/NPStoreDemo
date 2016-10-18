@@ -13,13 +13,14 @@
             <div class ="">
                 <div class="contendedor-login">
                     <img src="../images/npshop-logo.png" width="100%"/>
-                    <form action="" method="post">
-                
+                    <form action="pages/index.jsp">
+
                         <input type="text" name="usuario" value="" placeholder="Usuario" autofocus="true" style="width : 236px"/><br/>
                         <input type="password" name="pass" value="" placeholder="Contraseña" style="width : 236px;"/><br/>
                         <input type="submit" value="Acceder" style="width : 100%;"/>
-                    </form>
+                        <!-- falta implemetnar el servlet-->
 
+                    </form>
                 </div>
             </div>
         </div>

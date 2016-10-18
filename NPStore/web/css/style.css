@@ -1,0 +1,203 @@
+html, body{
+	margin: 0;
+	background: #181818;
+	font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+	position : relative;
+	min-height: 100%;
+}
+.contenedor{
+	width:980px;
+	margin : 0 auto;
+	background : white;
+	color : #444444;
+}
+.header{
+
+}
+
+.menu-top{
+	width: 100%;
+	background: #000000;
+	height: 70px;
+}
+.main-top{
+	width: 100%;
+	background: #004cca;
+	height: 300px;
+	margin-bottom : -5px;
+}
+.menu{
+	width: 100%;
+
+    background-image: -webkit-linear-gradient(top, #181818, #000000);
+    background-image: linear-gradient(to bottom, #181818, #000000);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0);
+    border-bottom: 3px solid #004cca;
+	height: 45px;
+}
+.panel-izq{
+	float: left;
+	width : 30%;
+	background: white;
+
+}
+.panel-main{
+	float: left;
+	width : 70%;
+	background: white;
+
+}
+
+.footer{
+	width: 100%;
+	background: #000000;
+	text-align: center;
+	color : #f5f5f5;
+	clear: both;
+}
+.box{
+	padding : 10px;
+	margin-top: 15px;
+	margin: 0;
+}
+
+/* menu top*/
+
+.menu-top ul{
+    list-style: none;
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 5px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    color : white;
+}
+.menu-top ul li{
+	float : left;
+}
+
+.menu-top ul li a{
+	padding : 5px;
+	color: white;
+}
+
+.menu-top ul li a:link{
+	text-decoration : none;
+
+}
+.menu-top ul li a:hover{
+	background : rgba(255,255,255,0.2);
+}
+.izq{
+	float:left;
+	margin-top: 25px;
+}
+.der{
+	float:right;
+	margin-top: 25px;
+	margin-right: 5px;
+}
+
+.menu ul{
+    list-style: none;
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 5px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    color : white;
+}
+.menu ul li{
+	float : left;
+}
+
+.menu ul li a{
+	padding : 10px;
+	color: white;
+	height:45px;
+	line-height : 45px;
+}
+
+.menu ul li a:link{
+	text-decoration : none;
+
+}
+.menu ul li a:hover{
+	background : #004cca;
+}
+
+iframe {
+    border-width: 0px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+/*carrito*/
+
+.carrito{
+	border: 1px solid #c5c5c5;
+	padding : 5px;
+	margin-bottom: 10px;
+}
+.carrito h3{
+	background : #004cca;
+	color : white;
+	padding : 5px;
+	margin :-5px;
+	margin-bottom: 8px;
+}
+
+/*form */
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+    height: 20px;
+    padding: 6px 6px;
+    margin-bottom: 9px;
+    line-height: 20px;
+    color: #555;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: middle;
+
+
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border linear .2s, box-shadow linear .2s;
+    -moz-transition: border linear .2s, box-shadow linear .2s;
+    -o-transition: border linear .2s, box-shadow linear .2s;
+    transition: border linear .2s, box-shadow linear .2s;
+}
+select{
+    height: 35px;
+    width: 200px;
+    font-family: sans-serif;
+}
+textarea{
+    height: 60px;
+    width: 250px;
+    font-family: sans-serif;
+}
+
+.button,
+input[type="button"], 
+input[type="submit"], 
+input[type="reset"], 
+input[type="file"]::-webkit-file-upload-button, 
+button {
+    color : #FFFFFF;
+    background: #17568c;
+    padding: 10px 20px;
+    border : 0px solid;
+    cursor: pointer;
+    margin-bottom: 9px;
+
+}
