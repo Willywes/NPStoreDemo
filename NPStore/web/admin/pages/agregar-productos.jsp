@@ -21,8 +21,8 @@
                         <div class="panel-box-blanco">
                             <h1>Agregar Productos</h1>
                             <hr/>
-                            <c:url var="uf" value="/admin/pages/agregarProducto"/>
-                            <form action="${uf}" method="post">
+                            
+                            <form action="<c:url value="/admin/pages/agregar-productos" />" method="post">
                                 <input type="number" name="id" value="" placeholder="Código" style="width : 100px;"/><br/>
                                 <input type="text" name="nombre" value="" placeholder="Nombre" /><br/>
                                 <select name="tipo">

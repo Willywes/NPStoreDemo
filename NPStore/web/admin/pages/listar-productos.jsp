@@ -1,3 +1,4 @@
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -20,40 +21,7 @@
                     <div class="panel-box">
                         <div class="panel-box-blanco">
                             <h1>Listar Productos</h1>
-                            <c:if test="${not empty sessionScope.registro.lista}">
-                                <table name="tablaDatos" align="left">
-                                    <tr >
-                                        <th>Código</th>
-                                        <th>Nombre</th>
-                                        <th>Tipo</th>
-                                        <th>Descripción</th>
-                                        <th>Precio</th>
-                                        <th>Imagen</th>
-                                        <th>Stock</th>
-                                        <th></th>
-                                    </tr> 
-                                    <c:forEach var="r" items="${sessionScope.registro.lista}">
-
-                                        <tr class="fila">
-                                            <td> <c:out value="${r.id}"/> </td>
-                                            <td> <c:out value="${r.nombre}"/> </td>
-                                            <td> <c:out value="${r.tipo}"/> </td>
-                                            <td> <c:out value="${r.descripcion}"/> </td>
-                                            <td> <c:out value="${r.precio}"/></td>
-                                            <td> <c:out value="${r.imagen}"/> </td>
-                                            <td> <c:out value="${r.stock}"/> </td>
-                                            <td>
-                                                <c:url var="urlEliminar" value="/admin/pages/eliminarProducto"/>
-                                                <form action="${urlEliminar}" method="POST">
-                                                    <input type="hidden" name="id" value="${r.id}" />
-                                                    <input type="submit" value="Eliminar" />
-                                                </form>
-                                            </td>
-                                        </tr>
-                                    </c:forEach>
-                                </table>
-                            </c:if>
-
+                     
                         </div>
                         <c:if test="${not empty respuesta}">
                             <div class="panel-box-blanco">
@@ -71,4 +39,4 @@
             </div>
         </div>
     </body>
-</html>
+</html> 

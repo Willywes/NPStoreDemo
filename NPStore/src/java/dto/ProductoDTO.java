@@ -12,13 +12,42 @@ import java.io.Serializable;
  */
 public class ProductoDTO implements Serializable {
     
+    private int id;
     private String nombre;
     private String tipo;
     private String descripcion;
     private int precio;
-    private int stock;
+    private byte[] imagen;
+    private int stock;    
 
     public ProductoDTO() {
+    }
+
+    public ProductoDTO(String nombre, String tipo, String descripcion, int precio, byte[] imagen, int stock) {
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.imagen = imagen;
+        this.stock = stock;
+    }
+
+    public ProductoDTO(int id, String nombre, String tipo, String descripcion, int precio, byte[] imagen, int stock) {
+        this.id = id;
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.imagen = imagen;
+        this.stock = stock;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -53,6 +82,14 @@ public class ProductoDTO implements Serializable {
         this.precio = precio;
     }
 
+    public byte[] getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(byte[] imagen) {
+        this.imagen = imagen;
+    }
+
     public int getStock() {
         return stock;
     }
@@ -60,7 +97,5 @@ public class ProductoDTO implements Serializable {
     public void setStock(int stock) {
         this.stock = stock;
     }
-    
-    
       
 }

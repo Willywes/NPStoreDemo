@@ -3,16 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package controlador;
+package presentacion;
 
+import Servicios.ServicioProducto;
 import java.io.IOException;
 import java.io.PrintWriter;
+import javax.ejb.EJB;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import modelo.ProductoColeccion;
+
 
 /**
  *
@@ -20,6 +22,9 @@ import modelo.ProductoColeccion;
  */
 @WebServlet(name = "eliminarProducto", urlPatterns = {"/admin/pages/eliminarProducto"})
 public class eliminarProducto extends HttpServlet {
+
+    @EJB
+    private ServicioProducto sp;
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -76,8 +81,8 @@ public class eliminarProducto extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         
         String cod = request.getParameter("id");
-
-        if (ProductoColeccion.eliminarProducto(Integer.parseInt(cod))) {
+        
+        if (sp.delete(cod)) {
             
             request.setAttribute("respuesta", "Se ha eliminado el Producto");
 

@@ -20,7 +20,7 @@ import javax.persistence.PersistenceContext;
 @Stateless
 public class ServicioCompra implements GenerarCRUD<CompraDTO> {
 
-    @PersistenceContext
+    // esto da error de modulo @PersistenceContext
     private EntityManager em;
 
     @Override
@@ -39,9 +39,15 @@ public class ServicioCompra implements GenerarCRUD<CompraDTO> {
     }
 
     @Override
-    public void delete(Object clave) {
+    public boolean delete(Object clave) {
         Compras c = em.find(Compras.class, clave);
-        em.remove(c);
+        try {
+            em.remove(c);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+        
     }
 
     @Override
