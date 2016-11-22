@@ -35,8 +35,10 @@
                                 </select><br/>
                                 <textarea type="text" name="descripcion" value="" placeholder="Descripción" ></textarea><br/>
                                 <input type="number" name="precio" value="" placeholder="Precio" style="width : 100px;"/><br/>
+                                
+                                <input type="file" name="imagen" value=""/><br/>
+                                
                                 <input type="number" name="stock" value="" placeholder="Cantidad" style="width : 100px;" /><br/>
-                                <input type="file" name="examinar" value=""/><br/>
                                 <input type="submit" value="Agregar" />
 
 

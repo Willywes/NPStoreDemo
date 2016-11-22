@@ -1,8 +1,8 @@
 <ul>
-    <li><a href="index.jsp">Inicio</a></li>
-    <li><a href="productos.jsp">Nuestros Productos</a></li>
-    <li><a href="sobre-nosotros.jsp">Sobre Nosotros</a></li>
-    <li><a href="contacto.jsp">Contactanos</a></li> 
+    <li><a href="index.jsp">INICIO</a></li>
+    <li><a href="productos.jsp">PRODUCTOS</a></li>
+    <li><a href="sobre-nosotros.jsp">SOBRE NP STORE</a></li>
+    <li><a href="contacto.jsp">CONTÁCTANOS</a></li> 
 </ul>
 
 
