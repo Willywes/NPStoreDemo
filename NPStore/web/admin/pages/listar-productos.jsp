@@ -28,8 +28,8 @@
                                         <th>Tipo</th>
                                         <th>Descripción</th>
                                         <th>Precio</th>
+                                        <th>Imagen</th>
                                         <th>Stock</th>
-                                        <th>Foto</th>
                                         <th></th>
                                     </tr> 
                                     <c:forEach var="r" items="${sessionScope.registro.lista}">
@@ -40,8 +40,8 @@
                                             <td> <c:out value="${r.tipo}"/> </td>
                                             <td> <c:out value="${r.descripcion}"/> </td>
                                             <td> <c:out value="${r.precio}"/></td>
-                                            <td> <c:out value="${r.cantidad}"/> </td>
-                                            <td> <c:out value="${r.foto}"/> </td>
+                                            <td> <c:out value="${r.imagen}"/> </td>
+                                            <td> <c:out value="${r.stock}"/> </td>
                                             <td>
                                                 <c:url var="urlEliminar" value="/admin/pages/eliminarProducto"/>
                                                 <form action="${urlEliminar}" method="POST">
